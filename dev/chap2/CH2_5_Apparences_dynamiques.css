@@ -1,0 +1,64 @@
+h1 {
+        font-family: "Arial";
+        color: red;
+        font-size: 20px;
+    }
+    .prm {
+        font-family: "Arial";
+        font-size: 16px;
+        color:violet;
+        line-height:20px;
+    }
+    .scd {
+        font-family:"Arial";
+        font-size:11px;
+        margin-top:25px;
+        margin-bottom:25px;
+        text-indent: 20px;
+    }
+    li{
+
+        font-size: 15px;
+        font-family:"Arial";
+        color: blue;
+        font-weight: bold;
+       transition: color 0.5s ease;
+
+    }
+    li:hover {
+        text-decoration: underline;
+    }
+    .yyy{
+        font-size:12px;
+        font-family:"Times New Roman";
+        margin-left: 37.7953px;
+        margin-right: 37.7953px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-style: italic;
+    }
+
+    ul{
+        font-size: 13px;
+        text-decoration: underline;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    h1, h2, h3 {
+        color: red;
+        transition: color 0.5s ease;
+    }
+
+    h1:hover, h2:hover, h3:hover {
+        text-decoration: underline;
+    }
+    .abc {
+        color: black;
+        transition: color 0.5s ease;
+    }
+
+    .abc:hover, .abc:hover, .abc:hover, .scd:hover {
+     font-style: italic;
+    }
+

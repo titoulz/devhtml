@@ -1,0 +1,30 @@
+body {
+    color:#FFF;
+    background-color:#555;
+    padding:1em;
+    text-shadow:0.1em 0.1em 0.1em #000;
+}
+
+article {
+    margin:2em;
+    padding:1em;
+    background-image:url("pingouin.png");
+    background-repeat:no-repeat;
+    background-size:auto 100%;
+    background-position:0 0;
+    background-color:#466;
+    background-origin:border-box;
+    border:1em dotted #F80;
+}
+
+article+article {
+    background-clip:padding-box;
+    background-origin:padding-box;
+    background-color:#464;
+}
+
+article+article+article {
+    background-clip: content-box;
+    background-origin: content-box;
+    background-color: #646;
+}
